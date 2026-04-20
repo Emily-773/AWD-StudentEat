@@ -1,0 +1,39 @@
+.recipe-slide-card {
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #eaeaea;
+
+  .recipe-slide-card-img {
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+    padding-top: 10px;
+  }
+}
+
+.glide__arrows {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.glide__arrow {
+  background-color: #198754;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  margin: 0 5px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.glide__arrow:hover {
+  background-color: #146c43;
+}
