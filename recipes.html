@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lunch Recipes | StudentEat</title>
+
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <!-- Font Awesome  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
+</head>
+
+<body id="page-recipes">
+
+  <header>
+    <div class="page-header-top container text-center text-md-start">
+      <a href="index.html">
+        <img src="./images/logo.png" alt="StudentEat logo" />
+      </a>
+    </div>
+
+    <nav class="navbar navbar-expand-lg mb-4">
+      <div class="container">
+
+        <!-- Accessibility improvement -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="categories.html">Categories</a></li>
+            <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+          </ul>
+
+          <form action="search.html" method="get" class="d-flex">
+            <input class="form-control me-2" type="search" name="query" placeholder="Search recipes..." aria-label="Search recipes">
+            <button class="btn btn-outline-dark" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1 class="mt-4 mb-3">Lunch Recipes</h1>
+    <p>Browse our wide range of lunch recipes below.</p>
+
+
+    <div class="col-md-3">
+      <div class="recipe-card">
+        <div class="recipe-card-image" style="background-image: url('./recipe-images/pasta.jpg');"></div>
+        <a href="recipe.html"><h3>Creamy Pasta</h3></a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3">
+        <div class="recipe-card">
+          <div class="recipe-card-image" style="background-image: url('./recipe-images/salad.jpg');"></div>
+          <a href="recipe.html"><h3>Fresh Salad</h3></a>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="recipe-card">
+          <div class="recipe-card-image" style="background-image: url('./recipe-images/burger.jpg');"></div>
+          <a href="recipe.html"><h3>Cheesy Burger</h3></a>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="recipe-card">
+          <div class="recipe-card-image" style="background-image: url('./recipe-images/soup.jpg');"></div>
+          <a href="recipe.html"><h3>Tomato Soup</h3></a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="./js/scripts-vendor.min.js"></script>
+  <script src="./js/scripts.min.js"></script>
+</body>
+</html>

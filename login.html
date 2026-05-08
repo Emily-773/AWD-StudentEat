@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | StudentEat</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body id="page-login">
+
+  <div class="container py-5">
+    <h1 class="text-center mb-5">Login & Register</h1>
+
+    <div class="row">
+      <!-- LOGIN -->
+      <div class="col-md-6">
+        <h2>Login</h2>
+
+        <form id="login-form" method="post" action="">
+          <div class="mb-3">
+            <label class="form-label" for="login_email">Email address</label>
+            <input type="email" class="form-control" id="login_email" name="email">
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label" for="login_password">Password</label>
+            <input type="password" class="form-control" id="login_password" name="password">
+          </div>
+
+          <button type="submit" class="btn btn-studenteat">Login</button>
+        </form>
+      </div>
+
+      <!-- REGISTER -->
+      <div class="col-md-6">
+        <h2>Register</h2>
+
+        <form id="registration-form" method="post" action="">
+          <div class="mb-3">
+            <label class="form-label" for="reg_email">Email address</label>
+            <input type="email" class="form-control" id="reg_email" name="email">
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label" for="reg_password">Password</label>
+            <input type="password" class="form-control" id="reg_password" name="password">
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label" for="reg_password_confirm">Confirm Password</label>
+            <input type="password" class="form-control" id="reg_password_confirm" name="password_confirm">
+          </div>
+
+          <button type="submit" class="btn btn-primary">Register</button>
+        </form>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

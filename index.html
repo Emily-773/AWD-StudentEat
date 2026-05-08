@@ -9,7 +9,7 @@
   <link href="./node_modules/@glidejs/glide/dist/css/glide.core.min.css" rel="stylesheet">
   <link href="./node_modules/@glidejs/glide/dist/css/glide.theme.min.css" rel="stylesheet">
 
-  <!-- Your CSS -->
+  <!-- CSS -->
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -17,7 +17,9 @@
 
   <header>
     <div class="page-header-top container text-center text-md-start">
-      <a href="index.html"><img src="./images/logo.png" alt="StudentEat" /></a>
+      <a href="index.html">
+        <img src="./images/logo.png" alt="StudentEat" />
+      </a>
     </div>
 
     <nav class="navbar navbar-expand-lg mb-4">
@@ -31,11 +33,15 @@
             <li class="nav-item">
               <a class="nav-link active" href="index.html">Home</a>
             </li>
+
             <li class="nav-item">
               <a class="nav-link" href="categories.html">Categories</a>
             </li>
+
             <li class="nav-item">
-              <a class="nav-link" href="login.html">Login</a>
+              <a class="nav-link btn btn-primary text-white ms-lg-3 px-3" href="login.html">
+                Login
+              </a>
             </li>
           </ul>
 
@@ -124,21 +130,10 @@
     <p class="text-center">Find simple, affordable recipes for students</p>
   </div>
 
-  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="./node_modules/@glidejs/glide/dist/glide.min.js"></script>
-
+  <script src="./js/scripts-vendor.min.js"></script>
+  <script src="./js/scripts.min.js"></script>
   <script>
-    new Glide('.glide', {
-      type: 'carousel',
-      perView: 4,
-      gap: 20,
-      breakpoints: {
-        1200: { perView: 4 },
-        992: { perView: 3 },
-        768: { perView: 2 },
-        576: { perView: 1 }
-      }
-    }).mount();
+    home.init();
   </script>
 
 </body>

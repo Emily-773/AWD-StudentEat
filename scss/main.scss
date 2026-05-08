@@ -1,8 +1,13 @@
 @import "abstracts/variables";
 @import "vendors/main-light";
+@import "../node_modules/lightgallery/scss/lightgallery-bundle.scss";
 @import "layout/header";
 @import "layout/navigation";
 @import "components/headings";
 @import "components/recipe-slide-card";
 @import "components/recipe-card";
 @import "themes/theme";
+@import "pages/login";
+@import "components/buttons";
+@import "pages/recipe";
+

@@ -5,8 +5,11 @@
     "@glidejs/glide": "^3.7.1",
     "bootstrap": "^5.3.8",
     "grunt": "^1.6.2",
+    "grunt-concurrent": "^3.0.0",
+    "grunt-contrib-uglify": "^5.2.2",
     "grunt-contrib-watch": "^1.1.0",
-    "grunt-sass": "^4.1.0"
+    "grunt-sass": "^4.1.0",
+    "lightgallery": "^2.9.0"
   },
   "devDependencies": {
     "sass": "^1.99.0"
